@@ -29,12 +29,11 @@ body, input {
 }
 
 .age-label {
-  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1)90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1.2rem;
   line-height: 1;
-  margin: 0 0 0 2px;
 }
 
 #cite {
