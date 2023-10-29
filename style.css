@@ -10,6 +10,7 @@
 
 body,
 html {
+  
   margin: 0;
   padding: 0;
   height: 100%;
@@ -21,6 +22,7 @@ body {
   -webkit-flex-direction: column;
   -webkit-font-smoothing: antialiased;
   -webkit-justify-content: center;
+  background-color: black;
 }
 
 body, input {
@@ -37,7 +39,7 @@ body, input {
 }
 
 #cite {
-  color: #B0B5B9;
+  color: #cfc5c5;
   font-size: 1.2rem;
   line-height: 1;
   margin: 0 0 0 2px;
@@ -69,7 +71,9 @@ body, input {
 
 
 .count {
-  color: #494949;
+  background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin: 0;
   font-size: 6rem;
   line-height: 1;
@@ -98,8 +102,15 @@ input {
   border-width: 1px;
   border-style: solid;
   border-radius: 0.25rem;
-  border-color: #CCC;
-  background-color: #FFF;
+  background-color: black;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
+}
+
+input[type="date"] {
+  color: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
 }
 
 button {
